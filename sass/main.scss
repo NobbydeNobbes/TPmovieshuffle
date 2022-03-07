@@ -1,0 +1,164 @@
+@import url(https://use.typekit.net/oek3jfu.css?ver=1.0.4);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url("https://p.typekit.net/p.css?s=1&k=oek3jfu&ht=tk&f=27897.27906.27923.27989.27992.27998.28000.28016.28022.28024.28028.28037.28053.28056.27899.28031.28038.27901.27995.28002.28003.27914.27929.27938.27940.27941.27947.27962.27968.27977.27996.28020.28029.28048.28054&a=9106962&app=typekit&e=css");
+
+.container{
+    display: flex;
+    
+    max-width: 1920px;
+    padding: 2rem 4rem 4rem;
+    border-radius: 1rem;
+    
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    .moviePoster{
+        flex-basis: 10rem;
+        position:relative;
+        
+        
+        
+        
+        
+        
+    
+        .poster{
+            width: 11rem;
+            height: 16.5rem;
+            padding: 1rem;
+            padding-top: 0;
+            
+            
+            
+
+            
+            
+            
+        }
+        .gradient{
+            background: linear-gradient(rgba(0,0,0,0) 50%, black 100%);
+            position: absolute;
+            color: white;
+            width:10.5rem;
+            bottom: 6.5%;
+            left: 8.5%;
+            font-weight: bold;
+            font-size: 1rem;
+            font-family: "paralucent";
+                .title{
+                    bottom: 10%;
+
+                }
+                .genre{
+                    width:10rem;
+                    font-size: 0.8rem;
+                    bottom:1rem;
+                }
+        }
+    }
+}
+.filmPage-wrapper{
+    display: flex;
+    max-width: 1920px;
+    padding: 2rem 4rem 4rem;
+    border-radius: 1rem;
+    position:relative;
+
+
+    
+}
+    .filmPage-header{
+        position:absolute;
+        font-family: "paralucent";
+        top:10rem;
+        left:8rem;
+        text-align: center;
+        font-size: 18pt;
+    }
+    .cover{
+        position: absolute;
+        left:auto;
+        top:15rem;
+        width: 18rem;
+        height:27.6rem;
+    }
+    .month{
+        position:absolute;
+        top:17rem;
+        left:23rem;
+        font-size: 15pt;
+        font-family: "paralucent";
+    }
+    .titleFilmPage{
+        position:absolute;
+        top:18rem;
+        left:23rem;
+        font-size: 40pt;
+        font-family: "paralucent";
+    }
+
+    .description{
+        position:absolute;
+        top:25rem;
+        left:23rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .genreFilmPage{
+        position:absolute;
+        top:36rem;
+        left:23rem;
+        font-size: 10pt;
+        color: gray;
+        font-family: "paralucent";
+    }
+
+    .date{
+        position:absolute;
+        top:37.5rem;
+        left:23rem;
+        font-size: 10pt;
+        font-family: "paralucent";
+    }
+    .trailer{
+        position:absolute;
+        text-align: center;
+        text-decoration: none;
+        top:40rem;
+        left:40rem;
+        font-family: "paralucent";
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+            
+            
+
+       
+            
+            
+        
+
+      
+            
+            
+            
+
+        
+            
+           
+            
+        
+
+
+
+
+
+
